@@ -11,6 +11,9 @@ import org.springframework.web.bind.annotation.PostMapping;
 import com.inti.model.Client;
 import com.inti.repository.IClientRepository;
 
+/**
+ * classe client controller
+ */
 @Controller
 public class ClientController {
 	
