@@ -35,4 +35,18 @@ pipeline {
         }
         
     }
+    
+    post {
+    	always {
+    		echo "build terminé"
+    	}
+    	success {
+    		echo "success de toutes les étapes"
+    	}
+    	failure {
+    		mail to :"productowner@test.fr",
+    			subject: "Echec build",
+    			body : "verifie les tests..."
+    	}
+    		
 }
