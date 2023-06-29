@@ -13,6 +13,12 @@ import lombok.NoArgsConstructor;
 import lombok.NonNull;
 import lombok.RequiredArgsConstructor;
 
+/**
+ * 
+ * @author IN-ST-020
+ *
+ */
+
 @Entity
 @Table
 @Data
